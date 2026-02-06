@@ -1,138 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Scholes Kisaina | Lead Research & Data Specialist</title>
-
-  <!-- Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scholes Kisaina | B2B Lead Generation</title>
 
   <style>
     :root {
-      --primary: #0a2540;
-      --secondary: #0d3b66;
-      --accent: #1da1f2;
-      --text: #ffffff;
-      --card-bg: rgba(10, 37, 64, 0.85);
-    }
-
-    * {
-      box-sizing: border-box;
-      font-family: "Segoe UI", sans-serif;
-      margin: 0;
-      padding: 0;
+      --primary:#0a2540;
+      --secondary:#0ea5e9;
+      --accent:#38bdf8;
+      --bg:#f5f9fc;
+      --card:#ffffff;
     }
 
     body {
-      background: 
-        linear-gradient(rgba(5,20,40,0.75), rgba(5,20,40,0.75)),
-        url("background.jpg") no-repeat center center/cover;
-      color: var(--text);
-      line-height: 1.7;
+      margin:0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background:var(--bg);
+      color:#1f2937;
+      line-height:1.6;
     }
 
     header {
-      text-align: center;
-      padding: 90px 20px;
+      background:linear-gradient(135deg, var(--primary), #083344);
+      color:#fff;
+      padding:70px 20px;
+      text-align:center;
     }
 
     header h1 {
-      font-size: 3rem;
-      margin-bottom: 10px;
+      font-size:2.8rem;
+      margin-bottom:10px;
     }
 
     header p {
-      font-size: 1.2rem;
-      opacity: 0.9;
+      font-size:1.1rem;
+      opacity:0.95;
+    }
+
+    .cta {
+      display:inline-block;
+      margin-top:25px;
+      background:var(--secondary);
+      color:#fff;
+      padding:14px 28px;
+      border-radius:30px;
+      font-weight:600;
+      text-decoration:none;
     }
 
     section {
-      max-width: 1100px;
-      margin: 40px auto;
-      padding: 25px;
-    }
-
-    .card {
-      background: var(--card-bg);
-      padding: 30px;
-      border-radius: 12px;
-      margin-bottom: 30px;
+      max-width:1100px;
+      margin:auto;
+      padding:60px 20px;
     }
 
     h2 {
-      color: #7dd3fc;
-      margin-bottom: 15px;
+      color:var(--primary);
+      font-size:2rem;
+      margin-bottom:25px;
     }
 
-    ul {
-      padding-left: 20px;
+    .grid {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:25px;
     }
 
-    ul li {
-      margin-bottom: 10px;
+    .card {
+      background:var(--card);
+      padding:25px;
+      border-radius:14px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.08);
     }
 
-    .why-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
+    .icon {
+      font-size:1.6rem;
+      color:var(--secondary);
     }
 
-    .why-item {
-      background: rgba(255,255,255,0.05);
-      padding: 20px;
-      border-radius: 10px;
-    }
-
-    .faq-item {
-      margin-bottom: 15px;
-    }
-
-    .faq-item strong {
-      color: #7dd3fc;
+    .sample img {
+      max-width:100%;
+      border-radius:14px;
+      box-shadow:0 15px 35px rgba(0,0,0,0.15);
     }
 
     footer {
-      text-align: center;
-      padding: 30px;
-      background: rgba(0,0,0,0.4);
-      margin-top: 60px;
+      background:var(--primary);
+      color:#fff;
+      text-align:center;
+      padding:30px 20px;
     }
 
-    /* Floating Buttons */
-    .floating {
-      position: fixed;
-      right: 20px;
-      bottom: 20px;
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-      z-index: 999;
+    a {
+      color:var(--secondary);
+      text-decoration:none;
+      font-weight:500;
     }
-
-    .floating a {
-      width: 55px;
-      height: 55px;
-      background: var(--accent);
-      color: #fff;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 22px;
-      text-decoration: none;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.4);
-      transition: transform 0.2s;
-    }
-
-    .floating a:hover {
-      transform: scale(1.1);
-    }
-
-    .whatsapp { background: #25D366; }
-    .linkedin { background: #0077b5; }
-    .upwork { background: #14a800; }
   </style>
 </head>
 
@@ -140,78 +105,77 @@
 
 <header>
   <h1>Scholes Kisaina</h1>
-  <p>🔍 Lead Generation • Data Research • Decision-Maker Contact Sourcing</p>
+  <p>B2B Lead Generation • Web Research • Remote Freelancer</p>
+  <a class="cta" href="#contact">Let’s Work Together</a>
 </header>
 
 <section>
-  <div class="card">
-    <h2>👋 About Me</h2>
-    <p>
-      I help businesses grow by finding **accurate, verified decision-maker contact data**.
-      My work focuses on precision, research depth, and clean delivery using Excel or Google Sheets.
-    </p>
-  </div>
+  <h2>👋 About Me</h2>
+  <p>
+    I’m a remote B2B Lead Generation Specialist helping businesses connect with
+    the right decision-makers through manual LinkedIn and web research.
+    Accuracy, compliance, and quality are my top priorities.
+  </p>
+</section>
 
-  <div class="card">
-    <h2>⚙️ How I Work</h2>
-    <ul>
-      <li>🔎 Identify companies in a specific industry using LinkedIn & Google searches</li>
-      <li>🏢 Use public records, company sites & databases to find decision makers</li>
-      <li>📧 Acquire and verify contact details (emails, roles, company info)</li>
-      <li>📊 Accurately input clean data into Excel or Google Sheets</li>
-      <li>✅ Deliver structured, ready-to-use lead lists</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h2>⭐ Why Choose Me</h2>
-    <div class="why-grid">
-      <div class="why-item">🎯 High accuracy & attention to detail</div>
-      <div class="why-item">⚡ Fast turnaround without sacrificing quality</div>
-      <div class="why-item">📈 Experience with multiple industries</div>
-      <div class="why-item">🤝 Clear communication & reliability</div>
-    </div>
-  </div>
-
-  <div class="card">
-    <h2>❓ Q & A</h2>
-
-    <div class="faq-item">
-      <strong>Q: How accurate is your data?</strong><br>
-      A: I manually research and cross-check sources to ensure high accuracy.
-    </div>
-
-    <div class="faq-item">
-      <strong>Q: What format do you deliver?</strong><br>
-      A: Excel or Google Sheets, fully structured and clean.
-    </div>
-
-    <div class="faq-item">
-      <strong>Q: Can you target specific roles?</strong><br>
-      A: Yes — founders, CEOs, managers, directors, and more.
-    </div>
-  </div>
-
-  <div class="card">
-    <h2>📞 Contact</h2>
-    <p>
-      📱 Phone / WhatsApp: <strong>+254 788 384 396</strong><br>
-      🔗 LinkedIn: <a href="https://www.linkedin.com/in/scholes-yaura-978859388/" target="_blank">View Profile</a><br>
-      💼 Upwork: <a href="https://www.upwork.com/freelancers/~012108f1fcae87084a" target="_blank">Hire Me</a>
-    </p>
+<section>
+  <h2>🛠️ Services</h2>
+  <div class="grid">
+    <div class="card"><span class="icon">🎯</span><h3>B2B Lead Generation</h3><p>Targeted, manually researched decision-makers.</p></div>
+    <div class="card"><span class="icon">🔎</span><h3>LinkedIn Research</h3><p>Accurate prospect identification by role & industry.</p></div>
+    <div class="card"><span class="icon">🌐</span><h3>Web Research</h3><p>Company data from public and verified sources.</p></div>
+    <div class="card"><span class="icon">📧</span><h3>Email Sourcing</h3><p>Business emails from company sites and patterns.</p></div>
   </div>
 </section>
 
-<footer>
-  © 2026 Scholes Kisaina — All Rights Reserved
-</footer>
+<section>
+  <h2>⚙️ How I Work</h2>
+  <div class="grid">
+    <div class="card">🔹 Identify companies by industry using LinkedIn & Google</div>
+    <div class="card">🔹 Research decision-makers through public records</div>
+    <div class="card">🔹 Source business contact information responsibly</div>
+    <div class="card">🔹 Verify data and organize it into Excel or Google Sheets</div>
+  </div>
+</section>
 
-<!-- Floating Buttons -->
-<div class="floating">
-  <a class="whatsapp" href="https://wa.me/254788384396" target="_blank"><i class="fab fa-whatsapp"></i></a>
-  <a class="linkedin" href="https://www.linkedin.com/in/scholes-yaura-978859388/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-  <a class="upwork" href="https://www.upwork.com/freelancers/~012108f1fcae87084a" target="_blank"><i class="fas fa-briefcase"></i></a>
-</div>
+<section>
+  <h2>⭐ Why Choose Me</h2>
+  <div class="grid">
+    <div class="card">✅ 100% manual research (no spam scraping)</div>
+    <div class="card">✅ Clean, CRM-ready spreadsheets</div>
+    <div class="card">✅ Data privacy & compliance focused</div>
+    <div class="card">✅ Clear communication & fast delivery</div>
+  </div>
+</section>
+
+<section class="sample">
+  <h2>📊 Sample Work</h2>
+  <p>Real B2B lead research sample. Sensitive data has been blurred.</p>
+  <img src="portfolio.png" alt="B2B Lead Generation Sample">
+</section>
+
+<section>
+  <h2>❓ FAQ</h2>
+  <div class="grid">
+    <div class="card"><strong>How do you verify emails?</strong><br>Using company websites, public sources, and safe verification methods.</div>
+    <div class="card"><strong>Do you use automation?</strong><br>No. My work is primarily manual for accuracy and compliance.</div>
+    <div class="card"><strong>Can you work with specific niches?</strong><br>Yes, I tailor research to your industry and ICP.</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>📞 Contact</h2>
+  <p>Email: <strong>scholeskisaina015@proton.me</strong></p>
+  <p>Phone / WhatsApp: <strong>+254 788 384 396</strong></p>
+  <p>
+    🔗 <a href="https://www.upwork.com/freelancers/~012108f1fcae87084a" target="_blank">Upwork</a> |
+    <a href="https://www.linkedin.com/in/scholes-yaura-978859388/" target="_blank">LinkedIn</a>
+  </p>
+</section>
+
+<footer>
+  © 2026 Scholes Kisaina • Remote B2B Lead Generation Specialist
+</footer>
 
 </body>
 </html>
