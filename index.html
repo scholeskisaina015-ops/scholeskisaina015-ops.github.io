@@ -2,188 +2,163 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Scholes Kisaina | B2B Lead Research Specialist</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scholes Kisaina | B2B Lead Generation</title>
 
   <style>
     :root {
-      --primary: #0f4c81;
-      --secondary: #1fb6aa;
-      --accent: #f4b400;
-      --dark: #1e293b;
-      --light: #f8fafc;
+      --primary:#0a2540;
+      --secondary:#0ea5e9;
+      --accent:#38bdf8;
+      --bg:#f5f9fc;
+      --card:#ffffff;
     }
 
     body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, sans-serif;
-      background: var(--light);
-      color: var(--dark);
-      line-height: 1.6;
+      margin:0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background:var(--bg);
+      color:#1f2937;
+      line-height:1.6;
     }
 
     header {
-      background: linear-gradient(135deg, var(--primary), var(--secondary));
-      color: white;
-      padding: 70px 20px;
-      text-align: center;
+      background:linear-gradient(135deg, var(--primary), #083344);
+      color:#fff;
+      padding:70px 20px;
+      text-align:center;
     }
 
     header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
+      font-size:2.8rem;
+      margin-bottom:10px;
     }
 
-    header p {
-      font-size: 1.1rem;
-      max-width: 700px;
-      margin: auto;
-    }
-
-    .btn {
-      background: var(--accent);
-      color: black;
-      padding: 12px 22px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: 600;
-      display: inline-block;
-      margin-top: 20px;
+    .cta {
+      display:inline-block;
+      margin-top:25px;
+      background:var(--secondary);
+      color:#fff;
+      padding:14px 28px;
+      border-radius:30px;
+      font-weight:600;
+      text-decoration:none;
     }
 
     section {
-      padding: 60px 20px;
-      max-width: 1100px;
-      margin: auto;
+      max-width:1100px;
+      margin:auto;
+      padding:60px 20px;
     }
 
     h2 {
-      color: var(--primary);
-      margin-bottom: 20px;
-      text-align: center;
+      color:var(--primary);
+      font-size:2rem;
+      margin-bottom:25px;
     }
 
     .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:25px;
     }
 
     .card {
-      background: white;
-      padding: 22px;
-      border-radius: 12px;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      background:var(--card);
+      padding:25px;
+      border-radius:14px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.08);
     }
 
-    .portfolio img {
-      width: 100%;
-      border-radius: 12px;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    .sample img {
+      max-width:100%;
+      border-radius:14px;
+      box-shadow:0 15px 35px rgba(0,0,0,0.15);
     }
 
     footer {
-      background: var(--dark);
-      color: white;
-      text-align: center;
-      padding: 30px 20px;
+      background:var(--primary);
+      color:#fff;
+      text-align:center;
+      padding:30px 20px;
     }
 
-    footer a {
-      color: var(--secondary);
-      text-decoration: none;
-      font-weight: bold;
+    a {
+      color:var(--secondary);
+      text-decoration:none;
+      font-weight:500;
     }
 
-    /* WhatsApp Button */
-    .whatsapp {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background: #25D366;
-      color: white;
-      padding: 15px 18px;
-      border-radius: 50%;
-      font-size: 22px;
-      text-decoration: none;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    /* Floating Buttons */
+    .float-container {
+      position:fixed;
+      bottom:25px;
+      right:25px;
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+      z-index:999;
     }
+
+    .float-btn {
+      width:52px;
+      height:52px;
+      border-radius:50%;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:#fff;
+      font-size:1.4rem;
+      box-shadow:0 8px 20px rgba(0,0,0,0.25);
+      transition:transform 0.2s ease;
+    }
+
+    .float-btn:hover {
+      transform:scale(1.08);
+    }
+
+    .whatsapp { background:#25D366; }
+    .linkedin { background:#0A66C2; }
+    .upwork { background:#14a800; }
   </style>
 </head>
 
 <body>
 
 <header>
-  <h1>👋 Hi, I'm Scholes Kisaina</h1>
-  <p>
-    A dedicated <strong>B2B Lead Research Specialist</strong> helping businesses
-    grow with clean, verified, and highly targeted lead lists.
-  </p>
-  <a class="btn" href="https://wa.me/254788384396">💬 Chat on WhatsApp</a>
+  <h1>Scholes Kisaina</h1>
+  <p>B2B Lead Generation • Web Research • Remote Freelancer</p>
+  <a class="cta" href="#contact">Let’s Work Together</a>
 </header>
 
-<section>
-  <h2>🛠 How I Work</h2>
-  <div class="grid">
-    <div class="card">🔍 Research companies in specific industries using LinkedIn & Google</div>
-    <div class="card">👔 Identify decision-makers & key contacts</div>
-    <div class="card">📧 Manually collect and verify email addresses</div>
-    <div class="card">📊 Deliver clean, accurate data in Excel or Google Sheets</div>
-  </div>
+<!-- CONTENT SECTIONS (unchanged) -->
+
+<section class="sample">
+  <h2>📊 Sample Work</h2>
+  <p>Real B2B lead research sample. Sensitive data has been blurred.</p>
+  <img src="portfolio.png" alt="B2B Lead Generation Sample">
 </section>
 
-<section>
-  <h2>⭐ Why Choose to Work With Me</h2>
-  <div class="grid">
-    <div class="card">✅ 100% Manual Lead Research</div>
-    <div class="card">🎯 Highly Targeted & Industry-Specific Leads</div>
-    <div class="card">📉 Low Bounce Rate with Verified Emails</div>
-    <div class="card">⚡ Fast Delivery & Clear Communication</div>
-    <div class="card">🤝 Client-Focused & Detail-Oriented</div>
-    <div class="card">📁 Ready-to-Use Spreadsheets</div>
-  </div>
-</section>
-
-<section class="portfolio">
-  <h2>📂 Sample Work</h2>
-  <p style="text-align:center;">Below is a sample of how I organize and present lead data (sensitive details blurred).</p>
-  <img src="portfolio.png" alt="B2B Lead Research Sample">
-</section>
-
-<section>
-  <h2>❓ Frequently Asked Questions</h2>
-
-  <div class="card">
-    <strong>How do you find leads?</strong>
-    <p>I use LinkedIn filters, Google searches, and public business records to identify relevant companies and decision-makers.</p>
-  </div>
-
-  <div class="card">
-    <strong>Are emails verified?</strong>
-    <p>Yes. Emails are verified using reliable verification methods to reduce bounce rates.</p>
-  </div>
-
-  <div class="card">
-    <strong>What format do you deliver?</strong>
-    <p>Google Sheets or Excel — clean, structured, and ready for outreach.</p>
-  </div>
-
-  <div class="card">
-    <strong>Which industries do you cover?</strong>
-    <p>SaaS, E-commerce, Agencies, Real Estate, Logistics, and more.</p>
-  </div>
+<section id="contact">
+  <h2>📞 Contact</h2>
+  <p>Email: <strong>scholeskisaina015@proton.me</strong></p>
+  <p>Phone / WhatsApp: <strong>+254 788 384 396</strong></p>
+  <p>
+    🔗 <a href="https://www.upwork.com/freelancers/~012108f1fcae87084a" target="_blank">Upwork</a> |
+    <a href="https://www.linkedin.com/in/scholes-yaura-978859388/" target="_blank">LinkedIn</a>
+  </p>
 </section>
 
 <footer>
-  <p>📧 Email: scholeskisaina015@proton.me</p>
-  <p>📞 Phone: +254788384396</p>
-  <p>
-    🔗 <a href="https://www.linkedin.com/in/scholes-yaura-978859388/">LinkedIn</a> |
-    💼 <a href="https://www.upwork.com/freelancers/~012108f1fcae87084a?mp_source=share">Upwork</a>
-  </p>
+  © 2026 Scholes Kisaina • Remote B2B Lead Generation Specialist
 </footer>
 
-<a class="whatsapp" href="https://wa.me/254788384396">💬</a>
+<!-- Floating Buttons -->
+<div class="float-container">
+  <a href="https://wa.me/254788384396" target="_blank" class="float-btn whatsapp">💬</a>
+  <a href="https://www.linkedin.com/in/scholes-yaura-978859388/" target="_blank" class="float-btn linkedin">in</a>
+  <a href="https://www.upwork.com/freelancers/~012108f1fcae87084a" target="_blank" class="float-btn upwork">U</a>
+</div>
 
 </body>
 </html>
